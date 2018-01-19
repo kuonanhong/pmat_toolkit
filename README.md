@@ -1,15 +1,15 @@
-# PMAT-PDK
+# PMAT-TOOLKIT
 Photonics tool kit written in Python and used to standardize photonic components, route (and autoroute!) waveguides, all for generation of lithography masks. Library was built ontop of gdsCAD for Python. Written by Derek Kita at MIT for use in the photonic materials research group (PMAT).
 
-Disclaimer:  this is not a Process Development Kit designed for use with any commercial foundry or fabrication service.  Rather, it is a set of relatively simple python tools aimed at helping individuals who perform their own microfabrication.  The tool-kit helps you generate lithography masks and standardize optical components, so that you can build your own mini Process Development Kit for whatever custom fabrication process you are working on.
+Disclaimer:  this is not a Process Development Kit designed for use with any commercial foundry or fabrication service.  Rather, it is a set of relatively simple python tools aimed at helping individuals who perform their own fabrication.  The tool-kit helps you generate lithography masks and standardize optical components, so that you can build your own mini Process Development Kit for whatever custom fabrication process you are working on.
 
-First install, then check out the tutorial at: https://github.com/DerekK88/pmat_pdk/wiki/PMAT-PDK-Homepage
+First install, then check out the tutorial at: https://github.com/DerekK88/pmat_toolkit/wiki/PMAT-TOOLKIT-Homepage
 
 Derek Kita, 2016
 
 ---------------------------------------------------------------------------------------------------------------------
 
-Installing software for PMAT-PDK:
+Installing software for PMAT-TOOLKIT:
 
 (1) Install python 2.7 from:
 	https://www.continuum.io/downloads
@@ -81,7 +81,7 @@ Installing software for PMAT-PDK:
 
 	http://pythonhosted.org/gdsCAD/#
 
-(9) To use PMAT-PDK, first download the "pmat_pdk" file, and locate your Python Path.  To do this, type:
+(9) To use PMAT-TOOLKIT, first download the "pmat_pdk" file, and locate your Python Path.  To do this, type:
 
 	import sys
 	print sys.path
